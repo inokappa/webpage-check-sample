@@ -28,12 +28,12 @@ module.exports = Object.freeze({
 
 CircleCI 上で実行する場合, 以下の項目を環境変数に設定します.
 
-* AWS_REGION ... AWS のリージョンを指定 (例: ap-norhteast-1)
-* ROOT_PATH ... 画像を保存するルートディレクトリを指定 (例: e2e.yamap.com) これは, S3 バケット名としても要求されます = この名前で S3 バケットを作成します
-* SLACK_MEMBER_IDS ... Slack 通知でメンションする対象メンバーの ID, 複数人に送る場合にはカンマ区切りで指定 (xxxx1,xxxx2)
-* SLACK_WEBHOOK ... Slack の Incomming Webhook の URL
+* `AWS_REGION` ... AWS のリージョンを指定 (例: ap-norhteast-1)
+* `ROOT_PATH` ... 画像を保存するルートディレクトリを指定 (例: webpage-check.inokara.com) これは, S3 バケット名としても要求されます = この名前で S3 バケットを作成します
+* `SLACK_MEMBER_IDS` ... Slack 通知でメンションする対象メンバーの ID, 複数人に送る場合にはカンマ区切りで指定 (xxxx1,xxxx2)
+* `SLACK_WEBHOOK` ... Slack の Incomming Webhook の URL
 
 ## これを仕込んだ目的
 
-* 
+* https://inokara.hateblo.jp/entry/2019/12/25/221936
 
